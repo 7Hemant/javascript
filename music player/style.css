@@ -1,0 +1,103 @@
+@import url("https://fonts.googleapis.com/css2?family=The+Nautigal&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Island+Moments&family=The+Nautigal&display=swap");
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background: linear-gradient(to left, #158fad, #10a838);
+}
+
+a {
+  text-decoration: none;
+}
+
+header {
+  background: #158fad;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem;
+}
+h1 {
+  font-size: 3rem;
+  font-family: "The Nautigal", cursive;
+}
+ul li {
+  list-style-type: none;
+  display: inline-block;
+  font-size: 2rem;
+  font-family: "The Nautigal", cursive;
+  font-weight: bold;
+  padding: 0.5rem;
+}
+
+.card {
+  background: #158fad;
+  background: linear-gradient(to right, #158fad, #10a838);
+  width: 80%;
+  margin: auto;
+  border-radius: 1rem;
+  padding: 3rem;
+  height: 37rem;
+  display: grid;
+  grid-template-rows: 80% 20%;
+}
+.section-1 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.songs-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+.songs-item h3 {
+  font-size: large;
+}
+.songs-item span {
+  padding: 0 0.5rem;
+}
+.section-2 {
+  background: black;
+  color: white;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  justify-content: center;
+  align-items: center;
+}
+
+img {
+  margin-left: 1rem;
+  width: 2rem;
+}
+
+.player-gif-master {
+  opacity: 0;
+}
+
+.section-2 input {
+  width: 80%;
+}
+
+footer {
+  background: #10a838;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.icons i {
+  cursor: pointer;
+}
+footer li {
+  padding: 1rem;
+}
+
+a:hover {
+  color: white;
+}
